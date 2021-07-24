@@ -891,14 +891,6 @@ body {
         margin-top: 95px;
     }
 
-    .heading-2::before {
-        /* top: 185px; */
-    }
-
-    .heading-2::after {
-        /* top: 185px; */
-    }
-
     .btn-experience {
         margin-bottom: 50px;
     }
