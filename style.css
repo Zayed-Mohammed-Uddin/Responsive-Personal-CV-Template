@@ -648,12 +648,12 @@ body {
 
 .heading-2::before {
     width: 190px;
-    top: 85px;
-    left: 4.7%;
+    top: 65px;
+    left: 0.7%;
 }
 
 .heading-2::after {
-    top: 85px;
+    top: 65px;
     width: 109px;
     left: 49%;
 }
@@ -785,14 +785,14 @@ body {
         }
 
         .heading-2::before {
-            left: 20px;
+            left: 0px !important;
             width: 130px !important;
-            top: 165px !important;
+            top: 115px !important;
         }
 
         .heading-2::after {
             width: 96px !important;
-            top: 165px !important;
+            top: 115px !important;
             left: 54% !important;
         }
     }
@@ -820,13 +820,13 @@ body {
 
     .heading-2::before {
         width: 170px;
-        top: 115px;
+        top: 75px;
         left: 7px;
     }
 
     .heading-2::after {
         width: 138px;
-        top: 115px;
+        top: 75px;
         left: 53%;
     }
 
