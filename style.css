@@ -517,8 +517,13 @@ body {
     }
 
     @media screen and (min-width: 388px) and (max-width: 530px) {
+        .custom-heading::before {
+            width: 178px !important;
+        }
+
         .custom-heading::after {
-            left: 34% !important;
+            left: 41% !important;
+            width: 84px !important;
         }
 
         .swiper-content-icon {
@@ -643,14 +648,14 @@ body {
 
 .heading-2::before {
     width: 190px;
-    top: 65px;
-    left: 0.7%;
+    top: 85px;
+    left: 4.7%;
 }
 
 .heading-2::after {
-    top: 65px;
-    width: 97px;
-    left: 54%;
+    top: 85px;
+    width: 109px;
+    left: 49%;
 }
 
 .heading-1::after,
@@ -782,13 +787,13 @@ body {
         .heading-2::before {
             left: 20px;
             width: 130px !important;
-            top: 115px !important;
+            top: 165px !important;
         }
 
         .heading-2::after {
-            width: 84px !important;
-            top: 115px !important;
-            left: 61% !important;
+            width: 96px !important;
+            top: 165px !important;
+            left: 54% !important;
         }
     }
 
@@ -815,14 +820,14 @@ body {
 
     .heading-2::before {
         width: 170px;
-        top: 65px;
+        top: 115px;
         left: 7px;
     }
 
     .heading-2::after {
-        width: 120px;
-        top: 65px;
-        left: 59%;
+        width: 138px;
+        top: 115px;
+        left: 53%;
     }
 
     .btn-experience {
@@ -887,11 +892,11 @@ body {
     }
 
     .heading-2::before {
-        top: 65px;
+        top: 185px;
     }
 
     .heading-2::after {
-        top: 65px;
+        top: 185px;
     }
 
     .btn-experience {
