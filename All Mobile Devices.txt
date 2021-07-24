@@ -1,0 +1,12 @@
+All Mobile Screens With Widths
+
+- Galaxy Fold             --------------> 280px
+- iPhone 5/SE             --------------> 320px
+- Moto G4, Galaxy S5, Blackberry -------> 360px
+- iPhone iPhone 6/7/8/X             ----> 375px
+- Pixel 2, Pixel XL             --------> 411px
+- iPhone 6/7/8 Plus             --------> 414px
+- Surface Duo             --------------> 540px
+- iPad             ---------------------> 768px
+- iPad Pro            -----------------> 1024px
+
