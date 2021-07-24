@@ -909,7 +909,7 @@ body {
     align-items: flex-start;
     min-height: calc(100vh - 100px);
     flex-flow: row wrap;
-    background: url("/Images/skills-bg.jpg") center center / cover no-repeat fixed;
+    background: url("./Images/skills-bg.jpg") center center / cover no-repeat fixed;
     justify-content: center !important;
 }
 
@@ -1140,12 +1140,12 @@ body {
 
 .footer-section {
     min-height: calc(100vh - 100px);
-    background: url("/Images/footer-bg-2.jpg") center center / cover no-repeat fixed;
+    background: url("./Images/footer-bg-2.jpg") center center / cover no-repeat fixed;
     position: relative;
 }
 
 .footer-heading {
-    background: url("/Images/footer-hd-bg.jpg") center center / cover no-repeat;
+    background: url("./Images/footer-hd-bg.jpg") center center / cover no-repeat;
     padding: 50px;
     border-radius: 80px;
     display: flex;
