@@ -785,14 +785,14 @@ body {
         }
 
         .heading-2::before {
-            left: 0px !important;
+            left: 20px;
             width: 130px !important;
-            top: 115px !important;
+            top: 165px !important;
         }
 
         .heading-2::after {
             width: 96px !important;
-            top: 115px !important;
+            top: 165px !important;
             left: 54% !important;
         }
     }
@@ -820,13 +820,13 @@ body {
 
     .heading-2::before {
         width: 170px;
-        top: 75px;
+        /* top: 115px; */
         left: 7px;
     }
 
     .heading-2::after {
         width: 138px;
-        top: 75px;
+        /* top: 115px; */
         left: 53%;
     }
 
@@ -892,11 +892,11 @@ body {
     }
 
     .heading-2::before {
-        top: 185px;
+        /* top: 185px; */
     }
 
     .heading-2::after {
-        top: 185px;
+        /* top: 185px; */
     }
 
     .btn-experience {
@@ -1135,6 +1135,10 @@ body {
     .swiper-button-next,
     .swiper-button-prev {
         display: none;
+    }
+
+    .portfolio-heading {
+        margin-top: 100px;
     }
 }
 
