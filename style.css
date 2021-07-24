@@ -648,12 +648,12 @@ body {
 
 .heading-2::before {
     width: 190px;
-    top: 65px;
-    left: 0.7%;
+    top: 85px;
+    left: 3.7%;
 }
 
 .heading-2::after {
-    top: 65px;
+    top: 85px;
     width: 109px;
     left: 49%;
 }
@@ -820,13 +820,13 @@ body {
 
     .heading-2::before {
         width: 170px;
-        /* top: 115px; */
+        top: 115px;
         left: 7px;
     }
 
     .heading-2::after {
         width: 138px;
-        /* top: 115px; */
+        top: 115px;
         left: 53%;
     }
 
