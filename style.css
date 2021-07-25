@@ -427,10 +427,6 @@ body {
     flex-flow: row wrap;
 }
 
-.custom-heading {
-    /* margin-top: 100px; */
-}
-
 .custom-heading::before {
     width: 220px;
     height: 3px;
