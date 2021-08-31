@@ -5,8 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Personal website of Zayed Mohammed Uddin. A rising web developer based in Bangladesh.">
-    <meta name="keywords" content="html, css, javascript, jquery, php, mysql, zayed mohammed uddin, zmu ,web developer; website builder; website designer; ecommerce website; zayed-mohammed-uddin.github.io/Portfolio; Zayed Mohammed Uddin; best web developer in BD; bangladesh; ecommerce business; best motivator; Dhaka; landing page; best programmer in bd; best programmer and web developer in fiverr; best programmer and web developer in upwork; best programmer and web developer in freelancer; best programmer and web developer in payperhour; weebly best website builder; shopify best website builder; squarespace best website builder; wordpress; best wordpress developer in Bangladesh; Pakistan; India; astra developer; avada developer; java; best php web developer, newsportal site,web design, SEO">
+    <meta name="description"
+        content="Personal website of Zayed Mohammed Uddin. A rising web developer based in Bangladesh.">
+    <meta name="keywords"
+        content="html, css, javascript, jquery, php, mysql, zayed mohammed uddin, zmu ,web developer; website builder; website designer; ecommerce website; zayed-mohammed-uddin.github.io/Portfolio; Zayed Mohammed Uddin; best web developer in BD; bangladesh; ecommerce business; best motivator; Dhaka; landing page; best programmer in bd; best programmer and web developer in fiverr; best programmer and web developer in upwork; best programmer and web developer in freelancer; best programmer and web developer in payperhour; weebly best website builder; shopify best website builder; squarespace best website builder; wordpress; best wordpress developer in Bangladesh; Pakistan; India; astra developer; avada developer; java; best php web developer, newsportal site, web design, SEO">
     <meta name="author" content="Zayed Mohammed Uddin">
     <title>Zayed Mohammed Uddin - Personal CV</title>
     <!-- Title Logo -->
@@ -35,6 +37,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./WOW-master/css/libs/animate.css" />
 
+    <!-- fakeloader -->
+    <link rel="stylesheet" href="./fakeLoader.js-2.0.0/css/fakeLoader.css">
+
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -47,11 +52,10 @@
         custom-navbar
         navbar-expand-lg navbar-light
         bg-light
-      ">
+      " id="portfolio-navbar">
         <a class="
           navbar-brand
           custom-navbar-brand
-          animate__animated animate__zoomIn animate__delay-2s
         " href="#">ZM<span>U</span><span>.</span></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -62,7 +66,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav custom-navbar-nav">
                 <li class="nav-item custom-nav-item active">
-                    <a class="nav-link custom-nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link custom-nav-link" href="#home">Home</a>
                 </li>
 
                 <li class="nav-item custom-nav-item">
@@ -93,13 +97,13 @@
         </div>
     </nav>
     <!-- NAVIGATION BAR END -->
-
+    <div class="fakeLoader"></div>
     <!-- SECTION-2 START -->
-    <section class="container-fluid landing-page wow slideInLeft" data-wow-duration="2s" id="home">
+    <section class="container-fluid landing-page wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" id="home">
         <div class="container landing-page-container">
             <img src="./Images/banner-left-man.png" alt="banner left man" />
             <div class="landing-page-content">
-                <h3 class="animate__animated animate__bounceIn animate__delay-2s">
+                <h3>
                     I am a <span style="color: #2e89ff">rising web developer</span>
                 </h3>
                 <h1 class="animate__animated animate__bounceIn">
@@ -119,7 +123,7 @@
     <!-- SECTION-2 END -->
 
     <!-- SECTION-3 START -->
-    <section class="container-fluid section-3 wow bounceInUp" data-wow-duration="2s" id="services">
+    <section class="container-fluid section-3 wow slideInRight" data-wow-duration="2s" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -351,7 +355,7 @@
 
     <!-- SECTION-4 END -->
     <!-- SECTION-5 START-->
-    <section class="container-fluid section-6 wow flash" data-wow-duration="1s" id="skills">
+    <section class="container-fluid section-6 wow slideInLeft" data-wow-duration="1s" id="skills">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -406,7 +410,7 @@
     </section>
     <!-- SECTION-5 END-->
     <!-- SECTION-6 START-->
-    <section class="container-fluid section-7 wow bounceIn" data-wow-duration="2s" id="portfolio">
+    <section class="container-fluid section-7 wow slideInRight" data-wow-duration="2s" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -653,12 +657,22 @@
     <!-- SWIPER JS -->
     <script src="./Swiper Slider/swiper-bundle.js"></script>
     <script src="./Swiper Slider/swiper-bundle.min.js"></script>
+    <!-- fakerloader JS -->
+    <script src="./fakeLoader.js-2.0.0/dist/fakeLoader.min.js"></script>
     <!-- OWL JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script src="./WOW-master/dist/wow.min.js"></script>
     <script>
         new WOW().init();
+        // fakeloader initialization
+        $(document).ready(function () {
+            $.fakeLoader({
+                timeToHide: 5000,
+                bgColor: "#2e89ff",
+                spinner: "spinner2"
+            });
+        });
     </script>
 </body>
 

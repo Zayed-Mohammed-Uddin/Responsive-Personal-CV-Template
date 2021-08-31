@@ -646,6 +646,7 @@ body {
     flex-direction: row;
     position: relative;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .heading-1,
@@ -722,6 +723,7 @@ body {
     color: rgb(175, 175, 175);
     margin-top: 35px;
     position: relative;
+    display: inline-block;
 }
 
 .experience-content::before {
@@ -731,17 +733,17 @@ body {
     height: 2px;
     background: rgb(213, 231, 255);
     left: -45px;
-    top: -12px;
+    top: -48px;
 }
 
 .experience-content::after {
     content: "";
     position: absolute;
     width: 2px;
-    height: 146%;
+    height: 169%;
     background: rgb(213, 231, 255);
     left: -45px;
-    top: -11px;
+    top: -48px;
 }
 
 .experience-content li {
