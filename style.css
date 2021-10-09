@@ -1289,7 +1289,9 @@ body {
     color: rgb(255, 255, 255);
     background: var(--primaryHoverColor);
 }
-
+.dev__link:hover{
+    text-decoration: underline !important;
+}
 @media screen and (min-width: 280px) and (max-width: 991px) {
     @media screen and (min-width: 280px) and (max-width: 280px) {
         .footer-btn {
